@@ -23,8 +23,11 @@ For example:
 
 21
 
-Exercise 2  Write a function called cumsum that takes a list of numbers and returns the cumulative sum; that is, a new list where the ith element is the sum of the first i+1 elements from the original list. For example:
-
+```diff
++Exercise 2  
+Write a function called cumsum that takes a list of numbers and returns the cumulative sum; that is, a new list where the ith element 
+is the sum of the first i+1 elements from the original list. 
+```
  
 >>> t = [1, 2, 3]
 
