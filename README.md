@@ -1,9 +1,22 @@
+
+
+
+```diff
+- zahid
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
 # CS105_Python
 This repository contains the assignment and exercise solution for the python course offered by Saylor Academy.
-
+<font color="green"> Some green text </font>
  
- 
-**Exercise 1:**  Write a function called nested_sum that takes a list of lists of integers and adds up the elements from all of the nested lists. For example:
+ ```diff
++ Exercise 1: 
+Write a function called nested_sum that takes a list of lists of integers and adds up the elements from all of the nested lists.
+```
+For example:
 >>>t = [[1, 2], [3], [4, 5, 6]]
 
 >>>nested_sum(t)
