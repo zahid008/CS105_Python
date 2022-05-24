@@ -158,3 +158,20 @@ def is_sorted(x):
   else:
     return False
 print(is_sorted(t))
+
+#Exerise: 6
+
+x = 'fried'
+y = 'deirf'
+
+c=list(x)
+d=list(y)
+def anagram(c,d):
+    c.sort()
+    d.sort()
+    if(c == d):
+        return True
+    else:
+        return False
+        
+print(anagram(c,d))
